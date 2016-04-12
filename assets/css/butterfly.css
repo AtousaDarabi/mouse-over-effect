@@ -1,0 +1,101 @@
+/***** Blue Butterfly mouse over effect *****/
+/***** Created By Atousa Darabi *****/
+
+.butterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.butterfly-container .butterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	width: 200px;
+	height: 200px;
+	border: dashed 3px #009cd4;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container:hover .butterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-img{
+	position: absolute;
+	top: 40px;
+	margin-top: 30px;
+	width: 200px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 230px;
+	width: 200px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-content > p.long-description{
+	display: none;
+}
+.butterfly-container .butterfly-content-top{
+	top: 50px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.butterfly-container .butterfly-content-top > h3,
+.butterfly-container .butterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.butterfly-container .butterfly-img-down{
+	top: 200px;
+	opacity: 0.5;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
