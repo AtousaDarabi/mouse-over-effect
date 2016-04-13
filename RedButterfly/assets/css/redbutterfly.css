@@ -1,0 +1,136 @@
+/***** Red Butterfly mouse over effect *****/
+/***** Created By Atousa Darabi *****/
+
+.redbutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.redbutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.redbutterfly-container .redbutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #f42633;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container:hover .redbutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img > img{
+	height: 103px;
+	width: 150px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > p.long-description{
+	display: none;
+	margin-top: 90px;
+}
+.redbutterfly-container .redbutterfly-content-top{
+	top: 40px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content-top > h3,
+.redbutterfly-container .redbutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img-corner{
+	top: 120px;
+	left: 40px;
+	transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	-ms-transform: rotateZ(45deg);
+	-moz-transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img-corner > img{
+	height: 50%;
+	width: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
