@@ -1,9 +1,9 @@
-MOUSE OVER EFFECT "BLUE BUTTERFLY"
+MOUSE OVER EFFECT "PINK BUTTERFLY"
 This is an mouseover effect using css and jquery created by Atousa Darabi.
 This mouseovereffect is based on bootstrap responsive design.
 
 Here is Demo link:
-http://atousadarabi.ir/design/mouseovereffect/BLueButterfly/
+http://atousadarabi.ir/design/mouseovereffect/PinkButterfly/
 
 Enjoy it :)
 
