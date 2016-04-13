@@ -1,0 +1,113 @@
+/***** Purple Butterfly mouse over effect *****/
+/***** Created By Atousa Darabi *****/
+
+.purplebutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.purplebutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.purplebutterfly-container .purplebutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #9b6dc7;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container:hover .purplebutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > p.long-description{
+	display: none;
+	margin-top: 120px;
+}
+.purplebutterfly-container .purplebutterfly-content-top{
+	top: 25px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content-top > h3,
+.purplebutterfly-container .purplebutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.purplebutterfly-container .purplebutterfly-img-down{
+	top: 90px;
+	opacity: 0.5;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
