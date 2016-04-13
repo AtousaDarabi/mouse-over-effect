@@ -1,6 +1,10 @@
 /***** Blue Butterfly mouse over effect *****/
 /***** Created By Atousa Darabi *****/
-
+.butterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
 .butterfly-container{
 	position: relative;
 	margin: 0 auto;
@@ -12,8 +16,10 @@
 .butterfly-container .butterfly-circle-border{
 	position: absolute;
 	top: 20px;
-	width: 200px;
-	height: 200px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
 	border: dashed 3px #009cd4;
 	border-radius: 50%;
 	transition: 1s;
@@ -33,9 +39,11 @@
 }
 .butterfly-container .butterfly-img{
 	position: absolute;
-	top: 40px;
+	top: 25px;
+	right: 0;
+	left: 0;
 	margin-top: 30px;
-	width: 200px;
+	width: 160px;
 	transition: 1s;
 	-o-transition: 1s;
 	-ms-transition: 1s;
@@ -45,8 +53,10 @@
 .butterfly-container .butterfly-content{
 	padding: 10px;
 	position: absolute;
-	top: 230px;
-	width: 200px;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
 	transition: 1s;
 	-o-transition: 1s;
 	-ms-transition: 1s;
@@ -73,7 +83,7 @@
 	display: none;
 }
 .butterfly-container .butterfly-content-top{
-	top: 50px;
+	top: 25px;
 	transition: 1s;
 	-o-transition: 1s;
 	-ms-transition: 1s;
@@ -91,7 +101,7 @@
 }
 
 .butterfly-container .butterfly-img-down{
-	top: 200px;
+	top: 170px;
 	opacity: 0.5;
 	transition: 1s;
 	-o-transition: 1s;
