@@ -1,0 +1,872 @@
+/***** All Butterfly mouse over effect *****/
+/***** Created By Atousa Darabi *****/
+
+/***** Blue Butterfly *****/
+.bluebutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.bluebutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.bluebutterfly-container .bluebutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #009cd4;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container:hover .bluebutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-content > p.long-description{
+	display: none;
+}
+.bluebutterfly-container .bluebutterfly-content-top{
+	top: 25px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.bluebutterfly-container .bluebutterfly-content-top > h3,
+.bluebutterfly-container .bluebutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.bluebutterfly-container .bluebutterfly-img-down{
+	top: 170px;
+	opacity: 0.5;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+/***** Blue Butterfly *****/
+
+/***** Green Butterfly *****/
+.greenbutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.greenbutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.greenbutterfly-container .greenbutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #2fcd90;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container:hover .greenbutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-img > img{
+	height: 103px;
+	width: 150px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-content > p.long-description{
+	display: none;
+	margin-top: 120px;
+}
+.greenbutterfly-container .greenbutterfly-content-top{
+	top: 25px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-content-top > h3,
+.greenbutterfly-container .greenbutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.greenbutterfly-container .greenbutterfly-img-down{
+	top: 50px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.greenbutterfly-container .greenbutterfly-img-down > img{
+	height: 80%;
+	width: 80%;
+	transition: 0.2s;
+	-o-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+/***** Green Butterfly *****/
+
+/***** Orange Butterfly *****/
+.orangebutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.orangebutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.orangebutterfly-container .orangebutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #ff7b73;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container:hover .orangebutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content > p.long-description{
+	display: none;
+	margin-top: 90px;
+}
+.orangebutterfly-container .orangebutterfly-content-top{
+	top: 45px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content-top > h3{
+	color: #ff7b73;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.orangebutterfly-container .orangebutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.orangebutterfly-container .orangebutterfly-img-down{
+	opacity: 0;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+/***** Orange Butterfly *****/
+
+/***** Pink Butterfly *****/
+.pinkbutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.pinkbutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.pinkbutterfly-container .pinkbutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #fec0ca;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container:hover .pinkbutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-img > img{
+	height: 103px;
+	width: 150px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-content > p.long-description{
+	display: none;
+	margin-top: 90px;
+}
+.pinkbutterfly-container .pinkbutterfly-content-top{
+	top: 40px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-content-top > h3,
+.pinkbutterfly-container .pinkbutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-img-corner{
+	top: -10px;
+	left: -50px;
+	transform: rotateZ(-45deg);
+	-o-transform: rotateZ(-45deg);
+	-ms-transform: rotateZ(-45deg);
+	-moz-transform: rotateZ(-45deg);
+	-webkit-transform: rotateZ(-45deg);
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.pinkbutterfly-container .pinkbutterfly-img-corner > img{
+	height: 50%;
+	width: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+/***** Pink Butterfly *****/
+
+/***** Purple Butterfly *****/
+.purplebutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.purplebutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.purplebutterfly-container .purplebutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #9b6dc7;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container:hover .purplebutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content > p.long-description{
+	display: none;
+	margin-top: 120px;
+}
+.purplebutterfly-container .purplebutterfly-content-top{
+	top: 25px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.purplebutterfly-container .purplebutterfly-content-top > h3,
+.purplebutterfly-container .purplebutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.purplebutterfly-container .purplebutterfly-img-down{
+	top: 90px;
+	opacity: 0.5;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+/***** Purple Butterfly *****/
+
+/***** Red Butterfly *****/
+.redbutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.redbutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.redbutterfly-container .redbutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #f42633;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container:hover .redbutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img > img{
+	height: 103px;
+	width: 150px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content > p.long-description{
+	display: none;
+	margin-top: 90px;
+}
+.redbutterfly-container .redbutterfly-content-top{
+	top: 40px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-content-top > h3,
+.redbutterfly-container .redbutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img-corner{
+	top: 120px;
+	left: 40px;
+	transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	-ms-transform: rotateZ(45deg);
+	-moz-transform: rotateZ(45deg);
+	-webkit-transform: rotateZ(45deg);
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.redbutterfly-container .redbutterfly-img-corner > img{
+	height: 50%;
+	width: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+/***** Red Butterfly *****/
+
+/***** Yellow Butterfly *****/
+.yellowbutterfly-parent{
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+}
+.yellowbutterfly-container{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	height: 400px;
+	text-align: center;
+	background-color: ;
+}
+.yellowbutterfly-container .yellowbutterfly-circle-border{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	border: dashed 3px #ffd600;
+	border-radius: 50%;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container:hover .yellowbutterfly-circle-border{
+	border-color: #ccc;
+	background-color: #efefef;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-img{
+	position: absolute;
+	top: 25px;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content{
+	padding: 10px;
+	position: absolute;
+	top: 180px;
+	right: 0;
+	left: 0;
+	width: 160px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content > h3{
+	color: #aaa;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content > p{
+	color: #ddd;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content > p.long-description{
+	display: none;
+	margin-top: 90px;
+}
+.yellowbutterfly-container .yellowbutterfly-content-top{
+	top: 45px;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content-top > h3{
+	color: #ffd600;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.yellowbutterfly-container .yellowbutterfly-content-top > p{
+	color: #666;
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.yellowbutterfly-container .yellowbutterfly-img-down{
+	left: 90px;
+	opacity: 0;
+	transform: rotate3d(100, 120, 90, 120deg);
+	-o-transform: rotate3d(100, 120, 90, 120deg);
+	-ms-transform: rotate3d(100, 120, 90, 120deg);
+	-moz-transform: rotate3d(100, 120, 90, 120deg);
+	-webkit-transform: rotate3d(100, 120, 90, 120deg);
+	transition: 1s;
+	-o-transition: 1s;
+	-ms-transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+/***** Yellow Butterfly *****/
