@@ -1,11 +1,11 @@
 /***** Blue Butterfly mouse over effect *****/
 /***** Created By Atousa Darabi *****/
-.butterfly-parent{
+.bluebutterfly-parent{
 	margin: 0 auto;
 	display: block;
 	width: 160px;
 }
-.butterfly-container{
+.bluebutterfly-container{
 	position: relative;
 	margin: 0 auto;
 	padding: 20px;
@@ -13,7 +13,7 @@
 	text-align: center;
 	background-color: ;
 }
-.butterfly-container .butterfly-circle-border{
+.bluebutterfly-container .bluebutterfly-circle-border{
 	position: absolute;
 	top: 20px;
 	right: 0;
@@ -28,7 +28,7 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container:hover .butterfly-circle-border{
+.bluebutterfly-container:hover .bluebutterfly-circle-border{
 	border-color: #ccc;
 	background-color: #efefef;
 	transition: 1s;
@@ -37,7 +37,7 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-img{
+.bluebutterfly-container .bluebutterfly-img{
 	position: absolute;
 	top: 25px;
 	right: 0;
@@ -50,7 +50,7 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-content{
+.bluebutterfly-container .bluebutterfly-content{
 	padding: 10px;
 	position: absolute;
 	top: 180px;
@@ -63,7 +63,7 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-content > h3{
+.bluebutterfly-container .bluebutterfly-content > h3{
 	color: #aaa;
 	transition: 1s;
 	-o-transition: 1s;
@@ -71,7 +71,7 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-content > p{
+.bluebutterfly-container .bluebutterfly-content > p{
 	color: #ddd;
 	transition: 1s;
 	-o-transition: 1s;
@@ -79,10 +79,10 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-content > p.long-description{
+.bluebutterfly-container .bluebutterfly-content > p.long-description{
 	display: none;
 }
-.butterfly-container .butterfly-content-top{
+.bluebutterfly-container .bluebutterfly-content-top{
 	top: 25px;
 	transition: 1s;
 	-o-transition: 1s;
@@ -90,8 +90,8 @@
 	-moz-transition: 1s;
 	-webkit-transition: 1s;
 }
-.butterfly-container .butterfly-content-top > h3,
-.butterfly-container .butterfly-content-top > p{
+.bluebutterfly-container .bluebutterfly-content-top > h3,
+.bluebutterfly-container .bluebutterfly-content-top > p{
 	color: #666;
 	transition: 1s;
 	-o-transition: 1s;
@@ -100,7 +100,7 @@
 	-webkit-transition: 1s;
 }
 
-.butterfly-container .butterfly-img-down{
+.bluebutterfly-container .bluebutterfly-img-down{
 	top: 170px;
 	opacity: 0.5;
 	transition: 1s;
