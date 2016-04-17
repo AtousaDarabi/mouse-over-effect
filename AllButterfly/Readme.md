@@ -3,7 +3,7 @@ These are mouseover effects using css and jquery based on bootstrap responsive d
 
 
 Here is Demo link:
-http://atousadarabi.ir/design/mouseovereffect/AllButterfly/
+http://design.atousadarabi.ir/mouseovereffect/AllButterfly/
 
 Enjoy it :)
 
